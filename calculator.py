@@ -23,6 +23,23 @@ while True:
         elif(token[0] == 'multiply'):
             result = multiply(int(token[1]), int(token[2]))
             print(result)
+        elif(token[0] == 'divide'):
+            result = divide(int(token[1]), int(token[2]))
+            print(result)
+        elif(token[0] == 'square'):
+            result = square(int(token[1]))
+            print(result)
+        elif(token[0] == 'cube'):
+            result = cube(int(token[1]))
+            print(result)
+        elif(token[0] == 'power'):
+            result = power(int(token[1]), int(token[2]))
+            print(result)
+        elif(token[0] == 'mod'):
+            result = mod(int(token[1]), int(token[2]))
+            print(result)
+        else:
+            break
         
         
 
